@@ -50,11 +50,12 @@
             </plugin>
         </plugins>
     </build>
-</project>
 <distributionManagement>
  <repository> 
     <id>Jenkins-Repo</id> 
     <name>Jenkins-Repo</name> 
-    <url>http://35.200.200.115:8081/nexus/content/repositories/Jenkins-Repo/</url> 
+    <url>http://35.200.200.115:8081/nexus/content/repositories/Jenkins-Repo</url> 
  </repository> 
 </distributionManagement>
+</project>
+
