@@ -8,4 +8,4 @@ RUN cd /tmp && tar xvfz tomcat.tar.gz
 RUN cp -Rv /tmp/apache-tomcat-8.5.51/* /usr/local/tomcat/
 EXPOSE 8080
 CMD /usr/local/tomcat/bin/catalina.sh run
-COPY /var/lib/jenkins/workspace/docker-image/project/target/project-1.0-RAMA.war /usr/local/tomcat/webapps/project-1.0-RAMA.war
+COPY project-1.0-RAMA.war /usr/local/tomcat/webapps/project-1.0-RAMA.war
