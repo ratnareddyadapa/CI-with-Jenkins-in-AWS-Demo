@@ -1,7 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tomcat-deployment
+  name: tomcat-deployment1
+  namespace: kube-system
   labels:
     app: tomcat
 spec:
